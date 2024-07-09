@@ -1,0 +1,14 @@
+/*Dado tres numeros enteros, encuentra el mayor*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int a,b,c;
+    cin>>a>>b>>c;
+    
+    cout<<max(max(a,b),c);
+    return 0;
+    
+}
